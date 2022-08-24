@@ -1,33 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!--BS5 & CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--BT5 JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <title>reeser00 | Stats preview card component</title>
+
 </head>
+
 <body>
+  <div class="container">
+    <table>
+      <tr>
+        <td class="textContent">
+          <div class="">
+            <h1 class="fw700">Get <span>insights</span> that help your business grow.</h1>
+            <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+              experience, and overall efficiency.</p>
 
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+            <div class="statBlock mRight">
+              <h3 class="fw700">10k+</h3>
+              <p class="statName">companies</p>
+            </div>
+            <div class="statBlock mRight">
+              <h3 class="fw700">14</h3>
+              <p class="statName">templates</p>
+            </div>
+            <div class="statBlock">
+              <h3 class="fw700">12M+</h3>
+              <p class="statName">queries</p>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="colorOverlay"></div>
+          <img src="images/image-header-desktop.jpg" class="" alt="heading">
+        </td>
+      </tr>
+    </table>
   </div>
+
+
 </body>
+
 </html>
